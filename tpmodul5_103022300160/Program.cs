@@ -6,5 +6,7 @@ class Program
     static void Main()
     {
         HaloGeneric.SapaUser(" Alya R");
+        DataGeneric<string> NIM = new DataGeneric<string>("103022300160");
+        NIM.PrintData();
     }
 }
